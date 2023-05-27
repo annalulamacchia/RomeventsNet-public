@@ -1,0 +1,223 @@
+  .hover1 img {
+    transition: all 0.3s ease;
+    padding: 2px;
+  }
+
+  .hover1>.hover1 img:hover {
+    width: 100%;
+    height: 56.75%;
+  }
+
+  .hover1>.hover2 img:hover {
+    width: 49%;
+    height: 100%;
+  }
+
+  .hover1>.hover3 img:hover {
+    width: 100%;
+    height: 50%;
+  }
+
+  .hover1>.hover4 img:hover {
+    width: 99.25%;
+    height: 53%;
+  }
+
+  .hover1>.hover5 img:hover {
+    width: 99.50%;
+    height: 47%;
+  }
+
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+
+  @media (max-width: 414px) {
+    .card-xxs {
+      flex: 1 0 0%;
+      width: 90%;
+      min-height: 320px;
+    }
+
+    .newsletter-xxs {
+      margin-top: 175px;
+    }
+  }
+
+  @media (min-width: 414px) {
+    .card-xs {
+      flex: 1 0 0%;
+      width: 90%;
+      min-height: 260px;
+    }
+
+    .newsletter-xs {
+      margin-top: 125px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .card-sm {
+      flex: 1 0 0%;
+      width: 90%;
+      min-height: 250px;
+    }
+
+    .newsletter-sm {
+      margin-top: 125px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .card-md {
+      flex: 1 0 0%;
+      width: 90%;
+      min-height: 250px;
+    }
+
+    .newsletter-md {
+      margin-top: 125px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .card-lg {
+      flex: 1 0 0%;
+      width: 50px;
+      min-height: 350px;
+    }
+
+    .newsletter-lg {
+      margin-top: 225px;
+    }
+  }
+
+
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+
+  .card__link,
+  .card__exit,
+  .card__icon {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    background: transparent;
+  }
+
+  .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+  }
+
+  .card__link:hover::after {
+    width: 100%;
+  }
+
+  .text {
+    color: white;
+  }
+
+  .card__exit {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+
+  .card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+
+  .card__title {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .card__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+
+  .card-5 {
+    background: rgb(29, 101, 186);
+    background: radial-gradient(circle, rgba(29, 101, 186, 1) 3%, rgba(23, 99, 163, 1) 16%, rgba(13, 76, 146, 1) 47%);
+  }
+
+  .newsletter {
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: rgba(13, 76, 146, 1);
+    border: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+  }
+
+  .newsletter:focus {
+    border: 1px solid rgb(112, 152, 236);
+    -webkit-transition: 0.1s;
+    transition: 0.5s;
+  }
+
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+
+  :root {
+    --color: #1b1b1b;
+  }
+
+  .container1 {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+  }
+
+  .blank,
+  .other {
+    width: 100%;
+    min-height: 20vh;
+    background-color: var(--color);
+  }
+
+  .second {
+    background-image: url(../imgs/sfondo4.jpg);
+    background-attachment: fixed;
+    min-height: 700px;
+  }
+
+  .second {
+    flex-direction: row;
+    gap: 1.6em;
+    display: flex;
+  }

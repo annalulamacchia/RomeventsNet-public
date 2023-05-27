@@ -1,0 +1,45 @@
+body {
+    background: rgb(209, 217, 226);
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+
+.navbar,
+.bar {
+    background: rgb(13, 76, 146);
+    background: linear-gradient(180deg, rgba(13, 76, 146, 1) 32%, rgba(23, 99, 163, 1) 84%, rgba(48, 103, 164, 1) 99%);
+}
+
+footer {
+    background: rgb(112, 152, 236);
+    background: linear-gradient(180deg, rgba(112, 152, 236, 1) 32%, rgba(122, 180, 230, 1) 84%, rgba(146, 189, 237, 1) 99%);
+    width: 100%;
+}
+
+.dropdown-menu {
+    background: rgb(209, 217, 226);
+}
+
+.dropdown-item:hover {
+    background: transparent;
+    color: rgb(13, 76, 146);
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
+
+a,
+section,
+.bar {
+    color: rgb(0, 0, 0);
+}
+
+.space {
+    min-height: 40vh;
+}

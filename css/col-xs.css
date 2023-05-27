@@ -1,0 +1,301 @@
+@media (max-width: 576px) {
+  .col-xs {
+    flex: 1 0 0%;
+  }
+
+  .col-xs-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .col-xs-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-xs-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-xs-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-xs-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-xs-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-xs-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-xs-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-xs-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .pe-xs-0 {
+    padding-right: 0 !important;
+  }
+
+  .pe-xs-1 {
+    padding-right: 0.25rem !important;
+  }
+
+  .pe-xs-2 {
+    padding-right: 0.5rem !important;
+  }
+
+  .pe-xs-3 {
+    padding-right: 1rem !important;
+  }
+
+  .pe-xs-4 {
+    padding-right: 1.5rem !important;
+  }
+
+  .pe-xs-5 {
+    padding-right: 3rem !important;
+  }
+
+  .pe-xs-6 {
+    padding-right: 5rem !important;
+  }
+
+  .ps-xs-0 {
+    padding-left: 0 !important;
+  }
+
+  .ps-xs-1 {
+    padding-left: 0.25rem !important;
+  }
+
+  .ps-xs-2 {
+    padding-left: 0.5rem !important;
+  }
+
+  .ps-xs-3 {
+    padding-left: 1rem !important;
+  }
+
+  .ps-xs-4 {
+    padding-left: 1.5rem !important;
+  }
+
+  .ps-xs-5 {
+    padding-left: 3rem !important;
+  }
+
+  .ps-xs-6 {
+    padding-left: 5rem !important;
+  }
+
+  .pt-xs-5 {
+    padding-top: 3rem !important;
+  }
+
+  .ms-xs-3 {
+    margin-left: 0.5rem !important;
+  }
+
+  .ms-xs-5 {
+    margin-left: 2.3rem;
+  }
+
+  .me-xs-0 {
+    margin-right: 0rem !important;
+  }
+
+  .me-xs-1 {
+    margin-right: 0.25rem !important;
+  }
+
+  .mt-xs-3 {
+    margin-top: 1rem !important;
+  }
+
+  .mt-xs-4 {
+    margin-top: 3rem !important;
+  }
+
+  .mb-xs-2 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .mb-xs-3 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .my-xs-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .mb-xs-0 {
+    margin-bottom: 0rem !important;
+  }
+
+  .text-xs-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 414px) {
+  .col-xxs {
+    flex: 1 0 0%;
+  }
+
+  .col-xxs-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .col-xxs-0 {
+    flex: 0 0 auto;
+    width: 0%;
+  }
+
+  .col-xxs-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-xxs-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-xxs-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-xxs-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-xxs-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-xxs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-xxs-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-xxs-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-xxs-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-xxs-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-xxs-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-xxs-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .ms-xxs-5 {
+    margin-left: 1.7rem !important;
+  }
+
+  .ms-xxs-3 {
+    margin-left: 0.25rem !important;
+  }
+
+  .ms-xxs-0 {
+    margin-left: 0rem !important;
+  }
+
+  .me-xxs-0 {
+    margin-right: 0rem !important;
+  }
+
+  .mb-xxs-3 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .mb-xxs-0 {
+    margin-bottom: 0rem !important;
+  }
+
+  .text-xxs-center {
+    text-align: center;
+  }
+
+  .pe-xxs-6 {
+    padding-right: 6rem !important;
+  }
+
+  .ps-xxs-2 {
+    padding-left: 0.5rem !important;
+  }
+
+  .pt-xxs-5 {
+    padding-top: 6rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ms-sm-6 {
+    margin-left: 3rem !important;
+  }
+}
+
+a {
+  text-decoration-line: none;
+}

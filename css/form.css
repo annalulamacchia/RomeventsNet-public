@@ -1,0 +1,199 @@
+.login {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.carta {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 370px;
+  width: 30rem;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.carta2 {
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  max-width: 45rem;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+@media (min-width: 992px) {
+  .carta2-lg {
+    width: 45rem;
+    transform: scale(0.95);
+  }
+}
+
+@media (min-width: 768px) {
+  .carta2-md {
+    width: 45rem;
+    transform: scale(0.95);
+  }
+}
+
+.inputBox {
+  position: relative;
+  display: block;
+  background-color: transparent;
+  width: 250px;
+  height: 4rem;
+  justify-self: center;
+  align-items: center;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 4rem;
+  padding: 20px;
+  outline: none;
+  border: none;
+  color: #000000;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+}
+
+.inputBox span {
+  margin-top: 2px;
+  position: absolute;
+  text-align: left;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 13px;
+  color: #000;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+
+.inputBox input:checked~span,
+.inputBox input:focus~span {
+  transform: translateX(113px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 1px;
+  color: #fff;
+  border: 2px;
+}
+
+
+.inputBox input:focus {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+
+}
+.enter[disabled]{
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color:rgb(81, 80, 80);
+}
+
+.enter:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.inputBox select {
+  position: relative;
+  display: block;
+  background-color: transparent;
+  justify-self: center;
+  align-items: start;
+  width: 100%;
+  padding: 20px 20px 20px 10px;
+  outline: none;
+  border: none;
+  color: #000000;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+}
+
+.selectBox:hover {
+  background-color: transparent;
+
+}
+
+.selectBox:focus {
+  outline: none;
+  border: 2px solid #000;
+}
+
+.selectBox option {
+  font-size: 0.8em;
+  background: #fff;
+  color: #000;
+  text-align: start;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.button3:active {
+  transform: scale(.9);
+  transition: all 100ms ease;
+}
+
+.button3:hover {
+  box-sizing: 90%;
+}
+
+.button3:active {
+  transform: scale(.9);
+  transition: all 100ms ease;
+}
+
+.button3:hover {
+  box-sizing: 90%;
+}

@@ -1,0 +1,462 @@
+.card1 {
+  width: 90%;
+  background: rgb(193, 204, 223);
+  border-radius: 20px;
+  border-style: ridge;
+  border-width: 4px;
+  border-color: rgb(151, 172, 209);
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  backdrop-filter: blur(10px);
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.img1 {
+  margin-left: 25px;
+  border-radius: 10px;
+  justify-content: left;
+}
+
+@media (max-width: 414px) {
+  .card1-xxs {
+    height: 200px;
+    display: inline-flex;
+    transform: scale(0.96);
+  }
+
+  .img1-xxs {
+    width: 150px;
+    height: 150px;
+  }
+
+  .h1-xxs {
+    font-size: 14px;
+    margin-bottom: 1px;
+    margin-top: 30px;
+  }
+
+  .p-xxs {
+    font-size: 12px;
+  }
+
+  .logo-xxs {
+    width: 18px;
+    height: 18px;
+  }
+
+  .marg-xxs {
+    padding-bottom: 2px;
+  }
+
+  .h2-xxs {
+    font-size: 11px;
+  }
+
+  .modal1-xxs {
+    width: 80%;
+    left: 16%;
+  }
+
+  .h1_4-xxs {
+    font-size: 14px;
+  }
+
+  .p4-xxs {
+    font-size: 12px;
+  }
+
+  .button1-xxs {
+    width: 55px;
+    height: 25px;
+    padding: 1px 10px;
+  }
+}
+
+@media (min-width: 414px) {
+  .card1-xs {
+    height: 250px;
+    display: inline-flex;
+    transform: scale(0.97);
+  }
+
+  .img1-xs {
+    width: 170px;
+    height: 170px;
+  }
+
+  .h1-xs {
+    font-size: 16.5px;
+    margin-bottom: 1px;
+    margin-top: 30px;
+  }
+
+  .p-xs {
+    font-size: 14.5px;
+  }
+
+  .logo-xs {
+    width: 20px;
+    height: 20px;
+  }
+
+  .marg-xs {
+    padding-bottom: 2px;
+  }
+
+  .h2-xs {
+    font-size: 14px;
+  }
+
+  .modal1-xs {
+    width: 80%;
+    left: 16%;
+  }
+
+  .h1_4-xs {
+    font-size: 18px;
+  }
+
+  .p4-xs {
+    font-size: 14px;
+  }
+
+  .button1-xs {
+    width: 90px;
+    height: 50px;
+    padding: 10px 3px;
+  }
+}
+
+@media (min-width: 576px) {
+  .card1-sm {
+    height: 250px;
+    display: inline-flex;
+    transform: scale(1);
+  }
+
+  .h1-sm {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .p-sm {
+    font-size: 15px;
+  }
+
+  .logo-sm {
+    width: 20px;
+    height: 20px;
+  }
+
+  .img1-sm {
+    width: 200px;
+    height: 200px;
+  }
+
+  .marg-sm {
+    padding-bottom: 1px;
+  }
+
+  .h2-sm {
+    font-size: 16px;
+  }
+
+  .modal1-sm {
+    width: 80%;
+    left: 15%;
+  }
+
+  .h1_4-sm {
+    font-size: 18px;
+  }
+
+  .p4-sm {
+    font-size: 14px;
+  }
+
+  .button1-sm {
+    width: 105px;
+    height: 50px;
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card1-md {
+    height: 300px;
+    display: inline-flex;
+    transform: scale(1);
+  }
+
+  .img1-md {
+    width: 250px;
+    height: 250px;
+  }
+
+  .h1-md {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .p-md {
+    font-size: 15px;
+  }
+
+  .logo-md {
+    width: 30px;
+    height: 30px;
+  }
+
+  .marg-md {
+    padding-bottom: 3px;
+  }
+
+  .h2-md {
+    font-size: 22px;
+  }
+
+  .modal1-md {
+    width: 100%;
+    left: 13%;
+  }
+
+  .h1_4-md {
+    font-size: 18px;
+  }
+
+  .p4-md {
+    font-size: 14px;
+  }
+
+  .button1-md {
+    width: 130px;
+    height: 50px;
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card1-lg {
+    height: 300px;
+    display: inline-flex;
+    transform: scale(1);
+  }
+
+  .img1-lg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .h1-lg {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .p-lg {
+    font-size: 18px;
+  }
+
+  .logo-lg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .marg-lg {
+    padding-bottom: 3px;
+  }
+
+  .h2-lg {
+    font-size: 22px;
+  }
+
+  .modal1-lg {
+    left: 22%;
+    width: 100%;
+  }
+
+  .h1_4-lg {
+    font-size: 18px;
+  }
+
+  .p4-lg {
+    font-size: 14px;
+  }
+
+  .button1-lg {
+    width: 130px;
+    height: 50px;
+    padding: 10px 10px;
+  }
+}
+
+.textBox {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins' sans-serif;
+}
+
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.span1 {
+  padding-left: 170px;
+}
+
+.h1 {
+  text-align: start;
+}
+
+.p {
+  font-weight: lighter;
+  text-align: start;
+}
+
+.marg {
+  margin-left: 20px;
+}
+
+.card2 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-style: solid;
+  background: rgb(193, 204, 223);
+  border-color: rgb(151, 172, 209);
+  border-width: 1px;
+  padding: 20px;
+}
+
+.infos {
+  margin-top: 0.5rem;
+}
+
+.date-time {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.description {
+  margin-top: 0.4rem;
+  line-height: 1.625;
+  color: rgb(0, 0, 0);
+}
+
+#more {
+  display: none;
+}
+
+.card3 {
+  display: inline-flex;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  border-style: solid;
+  background: rgb(193, 204, 223);
+  border-color: rgb(151, 172, 209);
+  border-width: 1px;
+  padding: 20px;
+}
+
+.card4 {
+  width: 100%;
+  height: 90px;
+  background: #353535;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease-in-out;
+}
+
+.card4:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.img4 {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#d7cfcf, #9198e5);
+}
+
+.card4:hover>.img {
+  transition: 0.5s ease-in-out;
+  background: linear-gradient(#9198e5, #712020);
+}
+
+.textBox4 {
+  width: calc(100% - 90px);
+  margin-left: 10px;
+  color: white;
+  font-family: 'Poppins' sans-serif;
+  align-items: start;
+}
+
+.textContent4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.span4 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.h1_4 {
+  font-weight: bold;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.p4 {
+  font-weight: lighter;
+  text-align: start;
+  margin-top: -10px;
+}
+
+.modal {
+  top: 15%;
+  bottom: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+}
+
+.button1 {
+  background-color: transparent;
+  border: 1px solid #0D4C92;
+  border-radius: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1:disabled {
+  pointer-events: none;
+}
+
+.button1:hover {
+  color: #fff;
+  background-color: #0D4C92;
+  box-shadow: rgb(93, 139, 192) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button1:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

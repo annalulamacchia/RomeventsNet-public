@@ -1,0 +1,140 @@
+.card1 {
+  width: 100%;
+  max-width: 420px;
+  height: 210px;
+  background: transparent;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin: 5px;
+  margin-left: 15px;
+  backdrop-filter: blur(5px);
+  transition: 0.5s ease-in-out;
+}
+
+.card1:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.img1 {
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+  border-radius: 10px;
+  justify-content: left;
+}
+
+.card1:hover>.img1 {
+  transition: 0.5s ease-in-out;
+}
+
+.textBox {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins' sans-serif;
+}
+
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span1 {
+  padding-left: 170px;
+}
+
+.h1 {
+  font-size: 18.5px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.h2 {
+  font-size: 14px;
+  text-align: start;
+  color: rgb(49, 48, 48);
+}
+
+.p {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: start;
+  margin-bottom: 1.5%;
+}
+
+@media (max-width: 414px) {
+  .h1-xxs {
+    font-size: 15px;
+  }
+
+  .p-xxs {
+    font-size: 12px;
+  }
+
+  .h2-xxs {
+    font-size: 12px;
+  }
+
+  .card1-xxs {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.button1 {
+  appearance: none;
+  background-color: transparent;
+  border: 0.150em solid #0D4C92;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 6px;
+  max-height: 3.75em;
+  max-width: 12em;
+  outline: none;
+  padding: 1em 0.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button1:disabled {
+  pointer-events: none;
+}
+
+.button1:hover {
+  color: #fff;
+  background-color: #0D4C92;
+  box-shadow: rgb(93, 139, 192) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button1:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.dropdown-item:hover {
+  background: transparent;
+  color: black;
+}
+
+.select1:hover {
+  color: rgb(13, 76, 146);
+}
